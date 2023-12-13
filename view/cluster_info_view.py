@@ -1,4 +1,5 @@
 import pandas as pd
+import streamlit as st
 df = pd.read_csv('https://raw.githubusercontent.com/kahyuwesuma/global-air-pollution/main/global%20air%20pollution%20dataset.csv')
 
 def display_dataframe(df):   
