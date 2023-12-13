@@ -15,6 +15,8 @@ def load_json(file_path):
         st.error(f"Error loading JSON file: {e}")
         return None
 
+aqi_data = load_json('data/cluster.json')
+
 def input_with_category(column1, column2, label, category_label, category_data):
     value = column1.number_input(label)
     
@@ -35,8 +37,6 @@ def inputs(model):
     city = st.text_input("Input Your City")
 
     col1, col2 = st.columns([2, 1])
-
-    aqi_data = load_json('data/cluster.json')
 
     aqi_value, aqi_category = input_with_category(col1, col2, "AQI Value", "AQI Category", aqi_data["categories"]["AQI_Value"])
     co_aqi_value, co_aqi_category = input_with_category(col1, col2, "CO AQI Value", "CO AQI Category", aqi_data["categories"]["CO_AQI_Value"])
