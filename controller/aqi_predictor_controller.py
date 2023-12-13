@@ -7,7 +7,7 @@ import json
 def main():   
     try:
         model = load_aqi_model('model/aqi_predictor_model.sav')
-        aqi_data = load_json('data/cluster.json')
+        aqi_data = load_json('data/category.json')
         page = st.sidebar.selectbox("Menu", ["Prediction" ,"Cluster Information"])      
         if page == "Prediction":
             inputs(model, aqi_data)
