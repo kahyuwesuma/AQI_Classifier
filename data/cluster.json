@@ -1,0 +1,11 @@
+{
+  "Cluster 1": {
+    "Description": "Cluster 1 mencerminkan kualitas udara yang baik, ditandai oleh nilai rata-rata Indeks Kualitas Udara (AQI) sekitar 2.14. Mayoritas kategori AQI, termasuk CO, Ozone, dan NO2, berada pada tingkat rendah. Meskipun tingkat PM2.5 sedang, dimensi reduksi PM (2.5) memiliki nilai negatif, menandakan potensi perhatian lebih lanjut. Keseluruhan, Cluster 1 menunjukkan kualitas udara yang baik dengan tingkat polutan umumnya rendah, perlu dicermati pada dimensi reduksi PM2.5."
+  },
+  "Cluster 2": {
+    "Description": "Cluster 2 menunjukkan beberapa nilai ekstrem, terutama pada PM2.5 AQI Value yang sangat tinggi mencapai rata-rata 181.42. Rata-rata AQI Value pada cluster ini mencapai sekitar -19.41, yang seharusnya tidak mungkin karena AQI Value seharusnya tidak bisa negatif, mungkin menunjukkan adanya kesalahan atau anomali dalam data. Mayoritas nilai AQI Category berada pada tingkat sedang hingga buruk, dengan tingkat karbon monoksida (CO AQI Value) yang relatif tinggi sekitar 7.62. Meskipun tingkat ozon (Ozone AQI Value) cenderung lebih rendah, tingkat nitrogen dioksida (NO2 AQI Value) cukup tinggi sekitar 22.69. Dimensi reduksi PM (2.5) memiliki rata-rata yang tinggi sekitar 17.72. Keseluruhan, Cluster 2 memperlihatkan nilai ekstrem dan perlu penanganan khusus terkait nilai negatif pada AQI Value yang mungkin merupakan anomali data."
+  },
+  "Cluster 3": {
+    "Description": "Cluster 3 menunjukkan kualitas udara yang seimbang dengan rata-rata AQI Value sekitar 7.46, menandakan tingkat yang relatif baik hingga sedang. Meskipun mayoritas nilai AQI Category berada pada tingkat sedang, tingkat karbon monoksida (CO AQI Value) rendah hingga sedang sekitar 3.14, dan nitrogen dioksida (NO2 AQI Value) rendah sekitar 1.84. Meski demikian, tingkat ozon (Ozone AQI Value) cenderung tinggi dengan rata-rata sekitar 132, dan nilai PM2.5 AQI yang cukup tinggi mencapai rata-rata 143.19. Dimensi reduksi PM (2.5) juga berada pada tingkat yang lebih tinggi dengan rata-rata sekitar 20.98. Oleh karena itu, perlu perhatian khusus terkait tingginya tingkat ozon dan partikulat matter, meskipun aspek lain menunjukkan tingkat yang lebih baik."
+  }
+}
