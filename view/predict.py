@@ -36,7 +36,7 @@ def inputs(model):
 
     col1, col2 = st.columns([2, 1])
 
-    aqi_data = load_json('data\cluster.json')
+    aqi_data = load_json('data/cluster.json')
 
     aqi_value, aqi_category = input_with_category(col1, col2, "AQI Value", "AQI Category", aqi_data["categories"]["AQI_Value"])
     co_aqi_value, co_aqi_category = input_with_category(col1, col2, "CO AQI Value", "CO AQI Category", aqi_data["categories"]["CO_AQI_Value"])
