@@ -1,3 +1,6 @@
+import streamlit as st
+import pickle
+
 def load_aqi_model(model_path):
     try:
         dtc = 'model/aqi_predictor_model.sav'
