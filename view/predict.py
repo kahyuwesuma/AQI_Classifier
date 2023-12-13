@@ -8,7 +8,7 @@ st.set_page_config(
 
 def load_json(file_path):
     try:
-        with open('data\cluster.json', "r") as json_file:
+        with open(file_path, "r") as json_file:
             data = json.load(json_file)
         return data
     except Exception as e:
@@ -35,6 +35,8 @@ def inputs(model):
     city = st.text_input("Input Your City")
 
     col1, col2 = st.columns([2, 1])
+
+    aqi_data = load_json('data\cluster.json')
 
     aqi_value, aqi_category = input_with_category(col1, col2, "AQI Value", "AQI Category", aqi_data["categories"]["AQI_Value"])
     co_aqi_value, co_aqi_category = input_with_category(col1, col2, "CO AQI Value", "CO AQI Category", aqi_data["categories"]["CO_AQI_Value"])
