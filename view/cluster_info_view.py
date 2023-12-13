@@ -1,4 +1,5 @@
-df = pandas.read_csv('https://raw.githubusercontent.com/kahyuwesuma/global-air-pollution/main/global%20air%20pollution%20dataset.csv')
+impprt pandas as pd
+df = pd.read_csv('https://raw.githubusercontent.com/kahyuwesuma/global-air-pollution/main/global%20air%20pollution%20dataset.csv')
 
 def display_dataframe(df):   
     return df.describe()
