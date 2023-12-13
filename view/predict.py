@@ -32,7 +32,7 @@ def get_category_from_value(value, category_data):
             return category_info["category"]
     return None
 
-def inputs(model):
+def inputs(model, aqi_data):
     country = st.text_input("Input Your Country")
     city = st.text_input("Input Your City")
 
